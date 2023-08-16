@@ -33,12 +33,12 @@ address {
     text-decoration: none;
     outline: none;
 }
-.logo {
-    color: var(--iris);
+.navbar .logo {
     font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    color: var(--iris);
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
