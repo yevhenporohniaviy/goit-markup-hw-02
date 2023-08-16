@@ -16,7 +16,7 @@
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    color: var(--slate);
+    color: var(--slate, #434455);
     background-color: var(--white);
 }
 ul {
@@ -92,7 +92,6 @@ a {
 
 /* Studio page */
 #hero-section .service-btn {
-    border: none;
     background: var(--iris, #4D5AE5);
     color: var(--white);
 }
@@ -133,13 +132,11 @@ a {
 
 /* Portfolio page  */
 #filters-section .filter-btn{
-    border: 1px solid var(--cornflower);
     background: var(--cloud);
     color: var(--iris);
 }
 #filters-section .filter-btn:hover, #filters .filter-btn:focus {
     background: var(--ocean);
-    border: 1px solid var(--ocean);
     color: var(--white);
 }
 #pages-section h3 {
