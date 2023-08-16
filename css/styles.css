@@ -34,6 +34,7 @@ address {
     outline: none;
 }
 
+.footer .logo,
 .navbar .logo {
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
@@ -43,9 +44,11 @@ address {
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
+.footer .logo .logo-head,
 .navbar .logo .logo-head {
     color: var(--navyblue);
 }
+.footer .logo .logo-foot
 .navbar .logo .logo-foot {
     color: var(--cloud);
 }
@@ -65,12 +68,12 @@ address {
 .strategy-section .title,
 .work-section .title,
 .team-section .title,
-.pages-section .title,
-.filters-section .title {
+.pages-section .title {
     color: var(--navyblue);
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -108,43 +111,40 @@ address {
 
 
 /* Studio page */
-.hero-section {
-    background-color: var(--navyblue);
-}
+
 .hero-section .service-btn {
     background-color: var(--iris, #4D5AE5);
     color: var(--white);
 }
-.hero-section .service-btn:hover, .hero-section .service-btn:focus{
+.hero-section .service-btn:hover, 
+.hero-section .service-btn:focus {
     background-color: var(--ocean, #404BBF);
 }
 .hero-section .title {
     color: var(--white);
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
-.strategy-section h3 {
+
+.hero-section {
+    background-color: var(--navyblue);
+}
+.team-section {
+    background-color: var(--cloud);
+}
+.team-section .title, 
+.strategy-section .title {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
 }
-.strategy-section p{
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-}
-.team-section h3 {
-    color: var(--navyblue);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
-}
-.team-section p {
+.team-section .text,
+.strategy-section .text {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -152,22 +152,23 @@ address {
 
 /* Portfolio page  */
 
-.filters-section .filter-btn{
+.filter-btn{
     background: var(--cloud);
     color: var(--iris);
 }
-.filters-section .filter-btn:hover, .filters .filter-btn:focus {
+.filter-btn:hover, 
+.filter-btn:focus {
     background: var(--ocean);
     color: var(--white);
 }
-.pages-section h3 {
+.pages-section .title {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
 }
-.pages-section p {
+.pages-section .text {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
