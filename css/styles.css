@@ -33,6 +33,7 @@ address {
     text-decoration: none;
     outline: none;
 }
+
 .navbar .logo {
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
@@ -42,15 +43,14 @@ address {
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.logo .logo-head {
+.navbar .logo .logo-head {
     color: var(--navyblue);
 }
-.logo .logo-foot {
+.navbar .logo .logo-foot {
     color: var(--cloud);
 }
 
 .btn {
-   
     cursor: pointer;
     text-align: center;
     font-size: 16px;
@@ -58,11 +58,15 @@ address {
     line-height: 24px;
     letter-spacing: 0.64px;
 }
-
 .btn:focus {
     outline: none;
 }
-.section-title {
+
+.strategy-section .title,
+.work-section .title,
+.team-section .title,
+.pages-section .title,
+.filters-section .title {
     color: var(--navyblue);
     font-size: 36px;
     font-weight: 700;
@@ -73,20 +77,20 @@ address {
 
 
 /* Header */
-.header-nav .nav-item {
+.header .list-item {
     color: var(--navyblue);
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
-.header-nav .nav-item, .header-nav .address-item {   
+.header .list-item, .header .address-item {   
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
 
-.header-nav .address-item:hover, .header-nav .address-item:focus,
-.header-nav .nav-item:hover, .header-nav .nav-item:focus {
+.header .address-item:hover, .header .address-item:focus,
+.header .list-item:hover, .header .list-item:focus {
     color: var(--ocean);
 }
 
@@ -104,62 +108,66 @@ address {
 
 
 /* Studio page */
-#hero-section .service-btn {
-    background: var(--iris, #4D5AE5);
+.hero-section {
+    background-color: var(--navyblue);
+}
+.hero-section .service-btn {
+    background-color: var(--iris, #4D5AE5);
     color: var(--white);
 }
-#hero-section .service-btn:hover, #hero-section .service-btn:focus{
-    background: var(--ocean, #404BBF);
+.hero-section .service-btn:hover, .hero-section .service-btn:focus{
+    background-color: var(--ocean, #404BBF);
 }
-#hero-section .title {
+.hero-section .title {
     color: var(--white);
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
 }
-#strategy-section h3 {
+.strategy-section h3 {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
 }
-#strategy-section p{
+.strategy-section p{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-#team-section h3 {
+.team-section h3 {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
 }
-#team-section p {
+.team-section p {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
 
 /* Portfolio page  */
-#filters-section .filter-btn{
+
+.filters-section .filter-btn{
     background: var(--cloud);
     color: var(--iris);
 }
-#filters-section .filter-btn:hover, #filters .filter-btn:focus {
+.filters-section .filter-btn:hover, .filters .filter-btn:focus {
     background: var(--ocean);
     color: var(--white);
 }
-#pages-section h3 {
+.pages-section h3 {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
 }
-#pages-section p {
+.pages-section p {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
