@@ -130,6 +130,14 @@ address {
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
+.team-section .title {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 .team-section .text,
 .strategy-section .text {
     font-size: 16px;
@@ -139,7 +147,15 @@ address {
 .team-list .team-list-item {
     background-color: var(--white);
 }
-.work-section .sub-title,
+.work-section .sub-title {
+    color: var(--navyblue);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
 .team-section .sub-title {
     color: var(--navyblue);
     text-align: center;
