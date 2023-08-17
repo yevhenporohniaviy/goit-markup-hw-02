@@ -130,7 +130,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
-.team-section .title {
+.team-list .team-list-item .title {
     color: var(--navyblue, #2E2F42);
     text-align: center;
     font-size: 20px;
