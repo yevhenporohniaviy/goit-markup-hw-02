@@ -45,10 +45,10 @@ address {
     text-transform: uppercase;
 }
 
-.navbar .logo .logo-head {
+.logo .logo-head {
     color: var(--navyblue);
 }
-.footer .logo .logo-foot {
+.logo .logo-foot {
     color: var(--cloud);
 }
 
@@ -122,17 +122,6 @@ address {
 .team-section {
     background-color: var(--cloud);
 }
-.team-section .sub-title {
-    color: var(--navyblue, #2E2F42);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-}
 
 .strategy-section .title {
     color: var(--navyblue);
@@ -147,8 +136,18 @@ address {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-.team-section .team-list .team-list-item {
+.team-list .team-list-item {
     background-color: var(--white);
+}
+.work-section .sub-title,
+.team-section .sub-title {
+    color: var(--navyblue);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 /* Portfolio page  */
