@@ -65,19 +65,6 @@ address {
     outline: none;
 }
 
-.strategy-section .title,
-.work-section .title,
-.team-section .title,
-.pages-section .title {
-    color: var(--navyblue);
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-}
-
 
 /* Header */
 .header .list-item {
@@ -112,10 +99,11 @@ address {
 
 /* Studio page */
 
-.hero-section .service-btn {
+.service-btn {
     background-color: var(--iris, #4D5AE5);
     color: var(--white);
 }
+.hero-section .service-btn:active,
 .hero-section .service-btn:hover, 
 .hero-section .service-btn:focus {
     background-color: var(--ocean, #404BBF);
@@ -140,7 +128,7 @@ address {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 .team-section .text,
@@ -156,6 +144,7 @@ address {
     background: var(--cloud);
     color: var(--iris);
 }
+.filter-btn:active,
 .filter-btn:hover, 
 .filter-btn:focus {
     background: var(--ocean);
@@ -173,3 +162,9 @@ address {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
+
+
+
+
+
+
