@@ -15,7 +15,6 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
     color: var(--slate, #434455);
     background-color: var(--white);
 }
@@ -41,7 +40,7 @@ address {
     color: var(--iris);
     font-size: 18px;
     font-weight: 800;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.034em;
     text-transform: uppercase;
 }
 
@@ -58,7 +57,7 @@ address {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
 }
 .btn:focus {
     outline: none;
@@ -75,7 +74,7 @@ address {
 .header .list-item, .header .address-item {   
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .header .address-item:hover, .header .address-item:focus,
@@ -91,7 +90,7 @@ address {
     color: var(--cloud);
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 
@@ -111,9 +110,8 @@ address {
     color: var(--white);
     text-align: center;
     font-size: 56px;
-    font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.07em;
 }
 
 .hero-section {
@@ -128,7 +126,7 @@ address {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.025em;
 }
 .team-list .team-list-item .title {
     color: var(--navyblue);
@@ -142,7 +140,7 @@ address {
 .strategy-section .text {
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .team-list .team-list-item {
     background-color: var(--white);
@@ -151,7 +149,6 @@ address {
     color: var(--navyblue);
     text-align: center;
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -160,7 +157,6 @@ address {
     color: var(--navyblue);
     text-align: center;
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -188,7 +184,7 @@ address {
 .pages-section .text {
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 
